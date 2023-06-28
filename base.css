@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(243, 242, 181);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+.menu {
+    width: 15%;
+    background-color: rgb(238, 236, 135);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(238, 208, 233);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(165, 142, 241);
+    min-height: 150px;
+}
+.row {
+    margin: 5px;
+}
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+fieldset {
+    margin: 15px 0;
+    border-radius: 10px;
+    border-color: rgb(138, 240, 54);
+}
+    table {
+        width: 250px;
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        padding: 5px;
+        text-align: left;
+      }
+      
+      thead th {
+        background-color: #c1ddeb;
+      }
+      
+      tbody tr:nth-child(even) {
+        background-color: #e2f3f8;
+      }
+      
+      tbody td {
+        border-top: 1px solid #ccc;
+      }
+      
+      tbody tr:last-child td {
+        border-bottom: 1px solid #ccc;
+      }
+      
+
